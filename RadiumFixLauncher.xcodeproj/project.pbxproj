@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DADD9020245F5D7300EC6597 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DADD901F245F5D7300EC6597 /* AppDelegate.m */; };
+		DADD9025245F5D7400EC6597 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DADD9023245F5D7400EC6597 /* MainMenu.xib */; };
+		DADD9028245F5D7400EC6597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DADD9027245F5D7400EC6597 /* main.m */; };
+		DAE94B632466E2DD00CE6A8C /* RadiumFix.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE94B612466E2DD00CE6A8C /* RadiumFix.m */; };
+		DAE94B662466E30A00CE6A8C /* libRadiumFix.dylib in Resources */ = {isa = PBXBuildFile; fileRef = DAE94B562466E2A800CE6A8C /* libRadiumFix.dylib */; };
+		DAE94B712466E98F00CE6A8C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE94B702466E98F00CE6A8C /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAE94B642466E30400CE6A8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADD9013245F5D7300EC6597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE94B552466E2A800CE6A8C;
+			remoteInfo = RadiumFix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAE94B4C2466DDB600CE6A8C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DADD901B245F5D7300EC6597 /* RadiumFixLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadiumFixLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADD901E245F5D7300EC6597 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DADD901F245F5D7300EC6597 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DADD9024245F5D7400EC6597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DADD9026245F5D7400EC6597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADD9027245F5D7400EC6597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DADD9029245F5D7400EC6597 /* RadiumFixLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RadiumFixLauncher.entitlements; sourceTree = "<group>"; };
+		DAE94B432466DDB600CE6A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE94B562466E2A800CE6A8C /* libRadiumFix.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libRadiumFix.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE94B602466E2DD00CE6A8C /* RadiumFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadiumFix.h; sourceTree = "<group>"; };
+		DAE94B612466E2DD00CE6A8C /* RadiumFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadiumFix.m; sourceTree = "<group>"; };
+		DAE94B702466E98F00CE6A8C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADD9018245F5D7300EC6597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE94B712466E98F00CE6A8C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE94B542466E2A800CE6A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADD9012245F5D7300EC6597 = {
+			isa = PBXGroup;
+			children = (
+				DADD901D245F5D7300EC6597 /* RadiumFixLauncher */,
+				DAE94B412466DDB600CE6A8C /* RadiumFix */,
+				DADD901C245F5D7300EC6597 /* Products */,
+				DAE94B6F2466E98F00CE6A8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DADD901C245F5D7300EC6597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADD901B245F5D7300EC6597 /* RadiumFixLauncher.app */,
+				DAE94B562466E2A800CE6A8C /* libRadiumFix.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADD901D245F5D7300EC6597 /* RadiumFixLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				DADD901E245F5D7300EC6597 /* AppDelegate.h */,
+				DADD901F245F5D7300EC6597 /* AppDelegate.m */,
+				DADD9023245F5D7400EC6597 /* MainMenu.xib */,
+				DADD9026245F5D7400EC6597 /* Info.plist */,
+				DADD9027245F5D7400EC6597 /* main.m */,
+				DADD9029245F5D7400EC6597 /* RadiumFixLauncher.entitlements */,
+			);
+			path = RadiumFixLauncher;
+			sourceTree = "<group>";
+		};
+		DAE94B412466DDB600CE6A8C /* RadiumFix */ = {
+			isa = PBXGroup;
+			children = (
+				DAE94B602466E2DD00CE6A8C /* RadiumFix.h */,
+				DAE94B612466E2DD00CE6A8C /* RadiumFix.m */,
+				DAE94B432466DDB600CE6A8C /* Info.plist */,
+			);
+			path = RadiumFix;
+			sourceTree = "<group>";
+		};
+		DAE94B6F2466E98F00CE6A8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAE94B702466E98F00CE6A8C /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DAE94B522466E2A800CE6A8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DADD901A245F5D7300EC6597 /* RadiumFixLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADD902C245F5D7400EC6597 /* Build configuration list for PBXNativeTarget "RadiumFixLauncher" */;
+			buildPhases = (
+				DADD9017245F5D7300EC6597 /* Sources */,
+				DADD9018245F5D7300EC6597 /* Frameworks */,
+				DADD9019245F5D7300EC6597 /* Resources */,
+				DAE94B4C2466DDB600CE6A8C /* Embed Frameworks */,
+				DAE94B7D2467407A00CE6A8C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE94B652466E30400CE6A8C /* PBXTargetDependency */,
+			);
+			name = RadiumFixLauncher;
+			productName = RadiumFixLauncher;
+			productReference = DADD901B245F5D7300EC6597 /* RadiumFixLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAE94B552466E2A800CE6A8C /* RadiumFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE94B5C2466E2A800CE6A8C /* Build configuration list for PBXNativeTarget "RadiumFix" */;
+			buildPhases = (
+				DAE94B522466E2A800CE6A8C /* Headers */,
+				DAE94B532466E2A800CE6A8C /* Sources */,
+				DAE94B542466E2A800CE6A8C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadiumFix;
+			productName = RadiumFix;
+			productReference = DAE94B562466E2A800CE6A8C /* libRadiumFix.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADD9013245F5D7300EC6597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Petr Zvoníček";
+				TargetAttributes = {
+					DADD901A245F5D7300EC6597 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DAE94B552466E2A800CE6A8C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DADD9016245F5D7300EC6597 /* Build configuration list for PBXProject "RadiumFixLauncher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADD9012245F5D7300EC6597;
+			productRefGroup = DADD901C245F5D7300EC6597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADD901A245F5D7300EC6597 /* RadiumFixLauncher */,
+				DAE94B552466E2A800CE6A8C /* RadiumFix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADD9019245F5D7300EC6597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE94B662466E30A00CE6A8C /* libRadiumFix.dylib in Resources */,
+				DADD9025245F5D7400EC6597 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DAE94B7D2467407A00CE6A8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo ${TARGET_BUILD_DIR}/libRadiumFix.dylib\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADD9017245F5D7300EC6597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADD9028245F5D7400EC6597 /* main.m in Sources */,
+				DADD9020245F5D7300EC6597 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE94B532466E2A800CE6A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE94B632466E2DD00CE6A8C /* RadiumFix.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAE94B652466E30400CE6A8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE94B552466E2A800CE6A8C /* RadiumFix */;
+			targetProxy = DAE94B642466E30400CE6A8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DADD9023245F5D7400EC6597 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADD9024245F5D7400EC6597 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADD902A245F5D7400EC6597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DADD902B245F5D7400EC6597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DADD902D245F5D7400EC6597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = RadiumFixLauncher/RadiumFixLauncher.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 22288LJ68H;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = RadiumFixLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zvo.RadiumFixLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		DADD902E245F5D7400EC6597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = RadiumFixLauncher/RadiumFixLauncher.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 22288LJ68H;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = RadiumFixLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zvo.RadiumFixLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		DAE94B5D2466E2A800CE6A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 22288LJ68H;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		DAE94B5E2466E2A800CE6A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 22288LJ68H;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADD9016245F5D7300EC6597 /* Build configuration list for PBXProject "RadiumFixLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADD902A245F5D7400EC6597 /* Debug */,
+				DADD902B245F5D7400EC6597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADD902C245F5D7400EC6597 /* Build configuration list for PBXNativeTarget "RadiumFixLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADD902D245F5D7400EC6597 /* Debug */,
+				DADD902E245F5D7400EC6597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE94B5C2466E2A800CE6A8C /* Build configuration list for PBXNativeTarget "RadiumFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE94B5D2466E2A800CE6A8C /* Debug */,
+				DAE94B5E2466E2A800CE6A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADD9013245F5D7300EC6597 /* Project object */;
+}
