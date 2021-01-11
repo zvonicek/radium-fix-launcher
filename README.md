@@ -11,7 +11,7 @@
 
 ## I want to know how this works
 
-- Read my article about building the patch
+- Read [my article](http://zvo.io/reverse-engineering-mac-app-to-fix-crash-on-catalina/) about building the patch
 - Explore the [/RadiumFix](https://github.com/zvonicek/radium-fix-launcher/blob/master/RadiumFix/) folder that contains the dynamic framework that is injected into the app
 - Explore the [/RadiumFixLauncher](https://github.com/zvonicek/radium-fix-launcher/tree/master/RadiumFixLauncher) folder with a launcher macOS app that injects the library
 - Clone the repo and run the "Radium" scheme to get the debugger attached to the Radium process directly.
